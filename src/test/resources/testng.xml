@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="true" name="Suite" thread-count="2">
+
+  <test name="ChromeTest">
+    <classes>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="https://www.amazon.in"/>
+      <class name="StepDefinitions.Runner"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <!-- <test name="FirefoxTest">
+    <classes>
+    <parameter name="browser" value="firefox"/>
+    <parameter name="url" value="https://www.amazon.in"/>
+      <class name="StepDefinitions.Runner"/>
+    </classes>
+  </test>--> <!-- Test -->
+  
+</suite> <!-- Suite -->
